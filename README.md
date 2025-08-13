@@ -16,13 +16,13 @@ This project presents a detailed RTL implementation of the DSP48A1 slice—a ded
 * Design testbenches to validate core functions—such as pre-add, multiply, add/accumulate, and cascade chaining.
 * Offer modularity and configurability for cascading and scalability in larger DSP applications.
 
+<b>Project Files: </b>
+* Design File
+* Testbench File
+* Do TCL file for automated simulation
+
 <b>Expected Outcomes:</b>
 * A synthesizable Verilog module that infers the DSP48A1 slice effectively on Spartan-6 hardware.
 * Verified behavior across functional blocks: pre-adder, multiplier, post-adder/accumulator.
 * Demonstrated pipelining performance, enabling maximum clock speed.
 * Ready-to-use infrastructure for filter implementations or complex DSP arithmetic chains.
-
-<b>Project Files: </b>
-* Design File
-* Testbench File
-* Do TCL file for automated simulation
