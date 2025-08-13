@@ -21,3 +21,8 @@ This project presents a detailed RTL implementation of the DSP48A1 slice—a ded
 * Verified behavior across functional blocks: pre-adder, multiplier, post-adder/accumulator.
 * Demonstrated pipelining performance, enabling maximum clock speed.
 * Ready-to-use infrastructure for filter implementations or complex DSP arithmetic chains.
+
+<b>Project Files: </b>
+* Design File
+* Testbench File
+* Do TCL file for automated simulation
