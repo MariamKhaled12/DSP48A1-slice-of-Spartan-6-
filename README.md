@@ -15,6 +15,7 @@ This project presents a detailed RTL implementation of the DSP48A1 slice—a ded
 * Implement pipelining structures that align with the slice’s internal registers, enhancing frequency and throughput.
 * Design testbenches to validate core functions—such as pre-add, multiply, add/accumulate, and cascade chaining.
 * Offer modularity and configurability for cascading and scalability in larger DSP applications.
+* Synthesis and Implementation for timing and resource monitoring.
 
 <b>Project Files: </b>
 * Design File
@@ -26,3 +27,8 @@ This project presents a detailed RTL implementation of the DSP48A1 slice—a ded
 * Verified behavior across functional blocks: pre-adder, multiplier, post-adder/accumulator.
 * Demonstrated pipelining performance, enabling maximum clock speed.
 * Ready-to-use infrastructure for filter implementations or complex DSP arithmetic chains.
+
+<b>Tools used:</b>
+* QuestaSim
+* QuestaVerify
+* Xilinx Vivado
